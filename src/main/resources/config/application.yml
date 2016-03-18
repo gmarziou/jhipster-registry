@@ -39,3 +39,4 @@ spring:
     application:
         name: jhipster-registry
 
+spring.boot.admin.context-path: /toto

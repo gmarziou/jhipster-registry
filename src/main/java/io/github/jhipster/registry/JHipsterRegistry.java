@@ -9,6 +9,7 @@ import java.util.Collection;
 import javax.annotation.PostConstruct;
 import javax.inject.Inject;
 
+import de.codecentric.boot.admin.config.EnableAdminServer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.SpringApplication;
@@ -23,6 +24,7 @@ import io.github.jhipster.registry.config.Constants;
 @SpringBootApplication
 @EnableEurekaServer
 @EnableConfigServer
+@EnableAdminServer
 public class JHipsterRegistry {
 
     private static final Logger log = LoggerFactory.getLogger(JHipsterRegistry.class);
